@@ -1,3 +1,6 @@
+ZekomXCode - ThreeJS - ThreeX - dynamictexture extension for WebGL
+
+
 threex.dynamictexture
 =====================
 
@@ -21,7 +24,7 @@ It shows ```.drawTextCooked``` function
 
 A Screenshot
 ============
-[![screenshot](https://raw.githubusercontent.com/jeromeetienne/threex.dynamictexture/master/examples/images/screenshot-threex-dynamictexture-512x512.jpg)](http://jeromeetienne.github.io/threex.dynamictexture/examples/basic.html)
+[![screenshot](https://sites.google.com/site/zekomtributemagazine/_/rsrc/1412887352917/zekom---github-repository/threex-dynamictexture-tree-zekomxcode/Zaslonska%20slika%202014-10-07%2021%3A43%3A13.png)](http://jeromeetienne.github.io/threex.dynamictexture/examples/basic.html)
 
 How To Install It
 =================
