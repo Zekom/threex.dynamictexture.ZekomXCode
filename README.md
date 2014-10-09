@@ -24,7 +24,7 @@ It shows ```.drawTextCooked``` function
 
 A Screenshot
 ============
-[![screenshot](https://sites.google.com/site/zekomtributemagazine/_/rsrc/1412887352917/zekom---github-repository/threex-dynamictexture-tree-zekomxcode/Zaslonska%20slika%202014-10-07%2021%3A43%3A13.png)](http://jeromeetienne.github.io/threex.dynamictexture/examples/basic.html)
+[![screenshot](https://sites.google.com/site/zekomtributemagazine/_/rsrc/1412888075711/zekom---github-repository/threex-dynamictexture-tree-zekomxcode/Zaslonska%20slika%202014-10-07%2021%3A40%3A39.png)](http://jeromeetienne.github.io/threex.dynamictexture/examples/basic.html)
 
 How To Install It
 =================
