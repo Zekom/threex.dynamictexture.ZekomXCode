@@ -1,0 +1,129 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>Threex.dynamictexture</title>
+  <meta name="description" content="Three.js - ThreeX - ZekomXCode dynamic textures for PHP/WebGL/HTML5">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Threex.dynamictexture</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">Three.js - ThreeX - ZekomXCode dynamic textures for PHP/WebGL/HTML5</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/Zekom/threex.dynamictexture/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/Zekom/threex.dynamictexture/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/Zekom/threex.dynamictexture" class="code">View Threex.dynamictexture on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <p><a href="https://github.com/Zekom/threex.dynamictexture/tree/ZekomXCode">https://github.com/Zekom/threex.dynamictexture/tree/ZekomXCode</a>
+ZekomXCode - ThreeJS.ThreeX - DynamicTexture
+<a href="https://sites.google.com/site/zekomtributemagazine/zekom---github-repository/threex-dynamictexture-tree-zekomxcode">https://sites.google.com/site/zekomtributemagazine/zekom---github-repository/threex-dynamictexture-tree-zekomxcode</a>
+threex.dynamictexture</p>
+
+<p>threex.dynamictexture is a threex game extension for three.js. It provides an easy way to handle dynamically generated texture. Inspiration came from the excelent babylon.js which got BABYLON.DynamicTexture. It is mainly used to write text in texture. Say you got a character which says something, you may want to put that in a texture and display that above your character. threex.dynamictexture will make it easy for you.
+Show Don't Tell</p>
+
+<pre><code>examples/basic.html [view source] : It shows this feature, and that one which is coded like that.
+examples/drawTextCooked.html [view source] : It shows .drawTextCooked function
+</code></pre>
+
+<p>A Screenshot
+How To Install It</p>
+
+<p>You can install it manually or with bower. for the manual version, first include threex.dynamictexture.js with the usual</p>
+
+
+
+<p>or with bower you type the following to install the package.</p>
+
+<p>bower install threex.dynamictexture</p>
+
+<p>then you add that in your html</p>
+
+
+
+<p>How To Use It ?</p>
+
+<p>You instanciate the texture, say it is 512 pixel width, and 512 pixel high.</p>
+
+<p>var dynamicTexture  = new THREEx.DynamicTexture(512,512)</p>
+
+<pre><code>dynamicTexture.canvas the underlying canvas
+dynamicTexture.context the context of the underlying canvas
+dynamicTexture.texture the THREE.Texture created
+</code></pre>
+
+<p>To use the texture on a THREE.Material</p>
+
+<p>var geometry    = new THREE.CubeGeometry( 1, 1, 1);
+var material    = new THREE.MeshBasicMaterial({
+    map : dynamicTexture.texture
+})
+var mesh    = new THREE.Mesh( geometry, material );
+scene.add( mesh );</p>
+
+<p>When you update a texture be sure to do</p>
+
+<p>dynamicTexture.texture.needsUpdate  = true</p>
+
+<p>Helpers Functions</p>
+
+<p>Some helpers functions are provided to draw in this canvas.</p>
+
+<p>To clear the underlying canvas</p>
+
+<p>dynamicTexture.clear();</p>
+
+<p>To Draw a Text to draw a text</p>
+
+<p>dynamicTexture.drawText('Hello', 32, 256, 'red')</p>
+
+<p><a href="https://sites.google.com/site/zekomtributemagazine/_/rsrc/1412887352917/zekom---github-repository/threex-dynamictexture-tree-zekomxcode/">https://sites.google.com/site/zekomtributemagazine/_/rsrc/1412887352917/zekom---github-repository/threex-dynamictexture-tree-zekomxcode/</a></p>
+
+<p><a href="https://github.com/Zekom">https://github.com/Zekom</a> ZekomZ - Zekom Tribute Magazine - G+ is a fast object pascal compiler (and more), that runs on more than 20 platforms Linux, windows, BSD, OS/2, DOS, PowerPC, and many more.</p>
+
+<p><a href="https://sites.google.com/site/zekomtributemagazine/zekom---github-repository/threex-dynamictexture-tree-zekomxcode">https://sites.google.com/site/zekomtributemagazine/zekom---github-repository/threex-dynamictexture-tree-zekomxcode</a></p>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/Zekom" class="avatar"><img src="https://avatars1.githubusercontent.com/u/2132696?v=2&amp;s=60" width="48" height="48"></a> <a href="https://github.com/Zekom">Zekom</a> maintains <a href="https://github.com/Zekom/threex.dynamictexture">Threex.dynamictexture</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/Zekom/threex.dynamictexture/tarball/master" class="tar">tar</a><a href="https://github.com/Zekom/threex.dynamictexture/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
