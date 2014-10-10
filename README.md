@@ -1,6 +1,10 @@
 ZekomXCode - ThreeJS - ThreeX - dynamictexture extension for WebGL
+ Zekom - GitHub repository‎ > ‎
+threex.dynamictexture-tree-ZekomXCode
+https://github.com/Zekom/threex.dynamictexture/tree/ZekomXCode
+ZekomXCode - ThreeJS.ThreeX - DynamicTexture
 
-
+[ZekomXCode - ThreeJS - ThreeX - dynamictexture extension for WebGL](https://sites.google.com/site/zekomtributemagazine/zekom---github-repository/threex-dynamictexture-tree-zekomxcode)
 threex.dynamictexture
 =====================
 
