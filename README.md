@@ -8,6 +8,21 @@ ZekomXCode - ThreeJS.ThreeX - DynamicTexture
 threex.dynamictexture
 =====================
 
+index.php
+----------- Demo Code ---------------
+
+<html>
+<head>
+<title> ZekomZ - Zekom Tribute Magazine - G+ - ThreeJS.ThreeX.dynamictexture extension for PHP/WebGL/HTML5</title>
+</head>
+<body>
+<iframe src="./ThreeJS-Book-1-2-3.php" width="300" height="300" ></iframe>
+<iframe src="./ThreeJS-Book-1-3-1.php" width="300" height="300" ></iframe>
+<iframe src="./Zekom-Github-Page.php" width="300" height="300" ></iframe>
+</body>
+</html>
+
+-------------------------------------
 threex.dynamictexture is a [threex game extension for three.js](http://www.threejsgames.com/extensions/). It provides an easy way to handle dynamically generated texture.
 Inspiration came from
 the excelent [babylon.js](http://www.babylonjs.com)
